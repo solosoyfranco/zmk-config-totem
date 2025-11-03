@@ -148,6 +148,16 @@
             bindings = <&kp LG(LS(LA(NUMBER_4)))>;
             key-positions = <32 3 11 12>;
         };
+
+        mac.copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <32 24>;
+        };
+
+        mac.paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <32 25>;
+        };
     };
 
     behaviors {
@@ -290,9 +300,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4    &kp NUMBER_5    &kp NUMBER_6  &kp N7          &kp N8        &kp N9           &kp NUMBER_0
-       &kp TILDE     &kp GRAVE     &trans            &kp LEFT_BRACE  &kp LBKT        &kp RBKT      &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp MINUS
-&mo 4  &kp GLOBE     &trans        &trans            &trans          &kp LPAR        &kp RPAR      &kp SEMICOLON   &kp DOWN      &kp QUESTION     &kp EQUAL     &none
+       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4    &kp NUMBER_5    &kp NUMBER_6  &kp N7          &mt_all N8 UP_ARROW  &kp N9           &kp NUMBER_0
+       &kp TILDE     &kp GRAVE     &trans            &kp LEFT_BRACE  &kp LBKT        &kp RBKT      &kp LEFT_ARROW  &kp DOWN             &kp RIGHT_ARROW  &kp MINUS
+&mo 4  &kp GLOBE     &trans        &trans            &trans          &kp LPAR        &kp RPAR      &kp SEMICOLON   &kp NUMBER_8         &kp QUESTION     &kp EQUAL     &none
                                    &kp LEFT_COMMAND  &trans          &kp SPACE       &trans        &trans          &trans
             >;
         };
@@ -368,10 +378,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &none  &none  &none      &none      &none     &msc SCRL_UP    &mkp LCLK       &mkp MCLK       &mkp RCLK        &kp PAGE_UP
-        &none  &none  &kp LG(C)  &kp LG(V)  &none     &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none
-&trans  &none  &none  &kp LC(C)  &kp LC(V)  &none     &none           &none           &mmv MOVE_DOWN  &none            &kp PAGE_DOWN  &none
-                      &trans     &trans     &trans    &none           &none           &none
+        &none  &none  &none      &none      &none     &none  &mkp LCLK       &mkp MCLK       &mkp RCLK        &kp PAGE_UP
+        &none  &none  &kp LG(C)  &kp LG(V)  &none     &none  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none
+&trans  &none  &none  &kp LC(C)  &kp LC(V)  &none     &none  &none           &mmv MOVE_DOWN  &none            &kp PAGE_DOWN  &none
+                      &trans     &trans     &trans    &none  &none           &none
             >;
         };
 
