@@ -56,12 +56,97 @@
 
         Shift+tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <11 12 13>;
+            key-positions = <12 13>;
         };
 
         Left-shift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <20 34>;
+        };
+
+        ctrl+1 {
+            bindings = <&kp LC(NUMBER_1)>;
+            key-positions = <20 0>;
+        };
+
+        ctrl+2 {
+            bindings = <&kp LC(NUMBER_2)>;
+            key-positions = <20 1>;
+        };
+
+        ctrl+3 {
+            bindings = <&kp LC(NUMBER_3)>;
+            key-positions = <20 2>;
+        };
+
+        ctrl+4 {
+            bindings = <&kp LC(NUMBER_4)>;
+            key-positions = <20 3>;
+        };
+
+        ctrl+5 {
+            bindings = <&kp LC(NUMBER_5)>;
+            key-positions = <20 4>;
+        };
+
+        ctrl-sh-1 {
+            bindings = <&kp LC(LS(NUMBER_1))>;
+            key-positions = <20 0 34>;
+        };
+
+        ctrl-sh-2 {
+            bindings = <&kp LC(LS(NUMBER_2))>;
+            key-positions = <20 1 34>;
+        };
+
+        ctrl-sh-3 {
+            bindings = <&kp LC(LS(NUMBER_3))>;
+            key-positions = <20 2 34>;
+        };
+
+        ctrl-sh-4 {
+            bindings = <&kp LC(LS(NUMBER_4))>;
+            key-positions = <20 3 34>;
+        };
+
+        ctrl-sh-5 {
+            bindings = <&kp LC(LS(NUMBER_5))>;
+            key-positions = <20 4 34>;
+        };
+
+        ctl.cmd.1 {
+            bindings = <&kp LC(LG(NUMBER_1))>;
+            key-positions = <20 0 32>;
+        };
+
+        ctrl.cmd.2 {
+            bindings = <&kp LC(LG(NUMBER_2))>;
+            key-positions = <20 32 1>;
+        };
+
+        ctrl.cmd.3 {
+            bindings = <&kp LC(LG(NUMBER_3))>;
+            key-positions = <20 32 2>;
+        };
+
+        ctrl.cmd.4 {
+            bindings = <&kp LC(LG(NUMBER_4))>;
+            key-positions = <20 32 3>;
+        };
+
+        ctrl.cmd.5 {
+            bindings = <&kp LC(LG(NUMBER_5))>;
+            key-positions = <20 32 4>;
+        };
+
+        tmp.screenshot.mac {
+            bindings = <&kp LG(LS(NUMBER_4))>;
+            key-positions = <32 3 11>;
+        };
+
+        save.screenshot.mac {
+            bindings = <&kp LG(LS(LA(NUMBER_4)))>;
+            key-positions = <32 3 11 12>;
         };
     };
 
