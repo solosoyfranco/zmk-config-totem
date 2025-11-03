@@ -206,8 +206,8 @@
             bindings = <
                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4    &kp NUMBER_5    &kp NUMBER_6  &kp N7          &kp N8        &kp N9           &kp NUMBER_0
                   &kp TILDE     &trans        &trans            &kp LEFT_BRACE  &kp LBKT        &kp RBKT      &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp MINUS
-&kp LEFT_CONTROL  &kp GLOBE     &trans        &trans            &trans          &kp LPAR        &kp RPAR      &trans          &kp DOWN      &trans           &kp KP_MULTIPLY  &kp PLUS
-                                              &kp LEFT_COMMAND  &trans          &kp SPACE       &trans        &trans          &kp KP_COMMA
+&kp LEFT_CONTROL  &kp GLOBE     &trans        &trans            &trans          &kp LPAR        &kp RPAR      &kp SEMICOLON   &kp DOWN      &trans           &trans        &kp PLUS
+                                              &kp LEFT_COMMAND  &trans          &kp SPACE       &trans        &trans          &trans
             >;
         };
 
