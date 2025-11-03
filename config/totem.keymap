@@ -292,7 +292,7 @@
             bindings = <
        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4    &kp NUMBER_5    &kp NUMBER_6  &kp N7          &kp N8        &kp N9           &kp NUMBER_0
        &kp TILDE     &kp GRAVE     &trans            &kp LEFT_BRACE  &kp LBKT        &kp RBKT      &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp MINUS
-&mo 4  &kp GLOBE     &trans        &trans            &trans          &kp LPAR        &kp RPAR      &kp SEMICOLON   &kp DOWN      &kp QUESTION     &kp PLUS      &none
+&mo 4  &kp GLOBE     &trans        &trans            &trans          &kp LPAR        &kp RPAR      &kp SEMICOLON   &kp DOWN      &kp QUESTION     &kp EQUAL     &none
                                    &kp LEFT_COMMAND  &trans          &kp SPACE       &trans        &trans          &trans
             >;
         };
