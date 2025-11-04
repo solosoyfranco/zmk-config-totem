@@ -257,27 +257,6 @@
             #binding-cells = <0>;
             bindings = <&kp C>, <&kp LG(C)>;
         };
-
-        pasteMAC: pasteMAC {
-            compatible = "zmk,behavior-tap-dance";
-            label = "PASTEMAC";
-            #binding-cells = <0>;
-            bindings = <&kp V>, <&kp LG(V)>;
-        };
-
-        screen1: screen1 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "SCREEN1";
-            #binding-cells = <0>;
-            bindings = <&kp Q>, <&kp LC(NUMBER_1)>;
-        };
-
-        screen2: screen2 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "SCREEN2";
-            #binding-cells = <0>;
-            bindings = <&kp W>, <&kp LC(NUMBER_2)>;
-        };
     };
 
     keymap {
@@ -302,10 +281,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                             &screen1  &screen2  &kp E             &kp R          &kp T           &kp Y                          &kp U          &kp I                     &kp O    &kp BACKSPACE
-                             &kp A     &kp S     &kp D             &kp F          &kp G           &kp H                          &kp J          &kp K                     &kp L    &kp P
-&mt_all LEFT_CONTROL ESCAPE  &kp Z     &kp X     &copyMAC          &pasteMAC      &kp B           &kp N                          &kp M          &kp COMMA                 &kp DOT  &kp SLASH      &kp ENTER
-                                                 &kp LEFT_COMMAND  &lt NAV SPACE  &kp LEFT_ALT    &mt_all RIGHT_SHIFT RIGHT_ALT  &lt SYM SPACE  &mt_all RIGHT_ALT DELETE
+                             &kp Q  &kp W  &kp E             &kp R          &kp T           &kp Y                          &kp U          &kp I                     &kp O    &kp BACKSPACE
+                             &kp A  &kp S  &kp D             &kp F          &kp G           &kp H                          &kp J          &kp K                     &kp L    &kp P
+&mt_all LEFT_CONTROL ESCAPE  &kp Z  &kp X  &kp C             &kp V          &kp B           &kp N                          &kp M          &kp COMMA                 &kp DOT  &kp SLASH      &kp ENTER
+                                           &kp LEFT_COMMAND  &lt NAV SPACE  &kp LEFT_ALT    &mt_all RIGHT_SHIFT RIGHT_ALT  &lt SYM SPACE  &mt_all RIGHT_ALT DELETE
             >;
         };
 
